@@ -1,0 +1,50 @@
+Here's a comprehensive list of common Git commands grouped by their functionalities:
+
+Configuring Git
+git config: Set or get configuration options.
+git config --global user.name "Your Name": Set your name for Git commits.
+git config --global user.email "your_email@example.com": Set your email for Git commits.
+git config --list: List all Git configurations.
+Creating Repositories
+git init: Initialize a new Git repository.
+Basic Snapshotting
+git add: Add file contents to the index.
+git add .: Add all changes to the staging area.
+git add <file>: Add specific file changes to the staging area.
+git commit: Record changes to the repository.
+git commit -m "Your commit message": Commit staged changes with a message.
+Branching & Merging
+git branch: List, create, or delete branches.
+git branch: List all branches.
+git branch <branch-name>: Create a new branch.
+git branch -d <branch-name>: Delete a branch.
+git checkout: Switch branches or restore working tree files.
+git checkout <branch-name>: Switch to a branch.
+git merge: Join two or more development histories together.
+Inspection & Comparison
+git status: Show the working tree status.
+git log: Show commit logs.
+git log --oneline: Show abbreviated commit logs.
+git diff: Show changes between commits, commit and working tree, etc.
+git diff: Show changes between the working directory and the index.
+git diff <commit1> <commit2>: Show changes between two commits.
+Undoing Changes
+git restore: Restore working tree files.
+git restore <file>: Restore file in the working directory.
+git reset: Reset current HEAD to the specified state.
+git reset <file>: Unstage file changes.
+git reset --hard <commit>: Reset to a specific commit, discarding all changes.
+Remote Repositories
+git remote: Manage set of tracked repositories.
+git remote add <name> <url>: Add a remote repository.
+git remote -v: List all remote repositories.
+git clone: Clone a repository into a new directory.
+git clone <url>: Clone a repository from a remote server.
+Collaboration
+git pull: Fetch from and integrate with another repository or a local branch.
+git push: Update remote refs along with associated objects.
+Working with Tags
+git tag: Create, list, delete or verify a tag object signed with GPG.
+Miscellaneous
+git help: Display help information about Git.
+Remember, you can always use git <command> --help for more detailed information on any specific command.
